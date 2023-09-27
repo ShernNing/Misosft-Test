@@ -1,0 +1,90 @@
+.platesCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/card-container.png");
+  height: 270px;
+  width: 340px;
+  margin: -1rem;
+  transition: 1s ease-in-out;
+
+  .number-container {
+    position: relative;
+    height: 130px;
+    width: 280px;
+    margin-right: 0.6rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("../../assets/container.png");
+      background-repeat: no-repeat;
+      opacity: 0.5;
+    }
+
+    .number {
+      color: var(--purple);
+      font-size: 2.2rem;
+      z-index: 1;
+    }
+  }
+
+  .details-container {
+    background-image: url("../../assets/cardDetails.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98px;
+    width: 289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.5rem;
+    margin-left: -1.15rem;
+
+    .series {
+      color: #6b7b8e;
+      font-size: 0.7rem;
+      margin-bottom: 0.2rem;
+      align-self: flex-start;
+      padding-left: 2rem;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      align-self: flex-start;
+      padding-left: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+  .platesCard {
+    transform: scale(0.9);
+    margin: -1.5rem;
+    transition: 1s ease-in-out;
+  }
+}
+
+@media (max-width: 970px) {
+  .platesCard {
+    transform: scale(0.8);
+    margin: -2.5rem;
+  }
+}
+
+@media (max-width: 665px) {
+  .platesCard {
+    transform: scale(0.6);
+    margin: -4rem;
+  }
+}

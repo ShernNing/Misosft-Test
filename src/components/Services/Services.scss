@@ -1,0 +1,64 @@
+#services {
+  background-image: url("../assets/service.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 10rem 0;
+
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-item {
+    height: 350px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .service-item:hover {
+    transform: scale(0.9);
+  }
+}
+
+// @media (max-width: 1010px) {
+//   .service-item {
+//     height: 250px !important;
+//   }
+// }
+
+// @media (max-width: 760px) {
+//   .service-item {
+//     height: 200px !important;
+//   }
+// }
+
+// @media (max-width: 580px) {
+//   .service-item {
+//     height: 150px !important;
+//   }
+// }
+
+@media (max-width: 1260px) {
+  .service-item {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 970px) {
+  .service-item {
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .service-item {
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 665px) {
+  .service-item {
+    height: 150px !important;
+  }
+}
