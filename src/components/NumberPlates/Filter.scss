@@ -1,0 +1,203 @@
+// state
+.state-filter {
+  button {
+    border: none;
+    background: none;
+  }
+
+  .state-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+
+    .states {
+      padding: 0.2rem 1.5rem;
+      border-radius: 20px;
+      border: 2px solid #c8cfd8;
+      color: #475364;
+      cursor: pointer;
+    }
+
+    .states:hover {
+      border: 2px solid var(--purple);
+      color: var(--purple);
+    }
+
+    .selected {
+      border: 2px solid transparent;
+      background: var(--purple);
+      color: white;
+      padding: 0.2rem 1.5rem;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  }
+
+  // price
+  .price-options {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+
+    .price-range {
+      display: flex;
+      align-items: center;
+      background: #e5e5ff;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      border: 2px solid #e5e5ff;
+      color: #475364;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .price-range:hover {
+      border: 2px solid var(--purple);
+      color: #12243e;
+    }
+
+    .selected {
+      display: flex;
+      align-items: center;
+      background: var(--purple);
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      border: 2px solid #e5e5ff;
+      color: white;
+      font-weight: 900;
+    }
+  }
+
+  //filter
+  .filter-buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem 0 1rem 0;
+    width: fit-content;
+
+    //reset button
+    .filter-reset-button {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 4px 12px;
+      border: 2px solid #12243e;
+      border-radius: 20px;
+      background: #12243e;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .filter-reset-button:hover {
+      background: var(--purple);
+      border: 2px solid var(--purple);
+    }
+  }
+
+  .selected-filters {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+
+    //selected filter
+    .selected-state {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.2rem 0.5rem 0.2rem 1rem;
+      border-radius: 20px;
+      border: 2px solid var(--purple);
+      background: var(--purple);
+      color: white;
+    }
+
+    // remove filter
+    .remove-filter {
+      border-radius: 20px;
+      color: #a6a6b5;
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .remove-filter:hover {
+      color: white;
+    }
+  }
+
+  .series-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+
+    .series-option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0.2rem 1.5rem;
+      border-radius: 5px;
+      color: white;
+      font-weight: 900;
+      font-size: 1.2rem;
+      background-image: url("../assets/Digits.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 90px;
+      width: 150px;
+      cursor: pointer;
+    }
+
+    .series-option:hover {
+      transform: scale(0.95);
+    }
+
+    .selected {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: var(--purple);
+      background-image: url("../assets/Digit.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 90px;
+      width: 150px;
+      color: white;
+      font-weight: 900;
+      font-size: 1.2rem;
+      padding: 0.2rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1260px) {
+}
+
+@media (max-width: 970px) {
+}
+
+@media (max-width: 665px) {
+  .series-option {
+    width: 100px !important;
+    font-size: 1rem !important;
+  }
+
+  .selected {
+    width: 100px !important;
+    font-size: 1rem !important;
+  }
+}
