@@ -20,10 +20,10 @@ function Navbar() {
           <img src={logo} alt='VNumber' className='logo' />
         </a>
         <section className='links'>
-          <Link to='plates' smooth={true} duration={500}>
+          <Link to='plates' offset={-100} smooth={true} duration={500}>
             <h2>Car Plates</h2>
           </Link>
-          <Link to='services' smooth={true} duration={500}>
+          <Link to='services' offset={-50} smooth={true} duration={500}>
             <h2>Our Services</h2>
           </Link>
           <Link to='contact' smooth={true} duration={500}>

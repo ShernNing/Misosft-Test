@@ -82,7 +82,7 @@ function NumberPlates() {
 
   return (
     <div className='plates-container'>
-      <section className='filter-container'>
+      <section id='plates' className='filter-container'>
         <h1>Search a Car Plate ></h1>
         <SearchBar
           plates={plates}
