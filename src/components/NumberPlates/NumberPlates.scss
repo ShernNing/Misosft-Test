@@ -56,7 +56,8 @@
     border: none;
     font-size: 1.5rem;
     top: 30%;
-    right: 23%;
+    right: 16%;
+    transition: 1s ease-in-out;
     cursor: pointer;
   }
 
@@ -139,6 +140,10 @@
   .plates {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .clear-search {
+    right: 23% !important;
+  }
 }
 
 @media (max-width: 970px) {
@@ -153,6 +158,10 @@
 
   .plates {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clear-search {
+    right: 27% !important;
   }
 }
 
