@@ -1,5 +1,4 @@
 import "./Contact.scss";
-import contact from "../assets/contact.png";
 import whatsapp from "../assets/whatsapp.png";
 import location from "../assets/location.png";
 import phone from "../assets/phone.png";

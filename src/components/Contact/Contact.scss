@@ -104,4 +104,14 @@
   .whatsapp-container {
     transform: scale(0.8);
   }
+
+  .contact-container {
+    h4 {
+      color: white !important;
+      padding: 1rem 0;
+      width: 50ch !important;
+      background: #00000053;
+      border-radius: 20px;
+    }
+  }
 }
