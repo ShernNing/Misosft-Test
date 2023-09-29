@@ -1,3 +1,55 @@
+// series
+.series-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+
+  .series-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.2rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background: #12243e;
+    background-image: url("../assets/Digits.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .series-option:hover {
+    transform: scale(0.95);
+  }
+
+  .selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.2rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    background: var(--purple);
+    background-image: url("../assets/Digit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: auto;
+
+    cursor: pointer;
+  }
+}
+
 // state
 .state-filter {
   button {
@@ -30,7 +82,7 @@
       border: 2px solid transparent;
       background: var(--purple);
       color: white;
-      padding: 0.2rem 1.5rem;
+      padding: 0.4rem 1.8rem;
       border-radius: 20px;
       cursor: pointer;
     }
@@ -52,13 +104,12 @@
       background: #e5e5ff;
       border-radius: 5px;
       padding: 0.5rem 1rem;
-      border: 2px solid #e5e5ff;
       color: #475364;
       font-weight: 600;
       cursor: pointer;
     }
     .price-range:hover {
-      border: 2px solid var(--purple);
+      background: #cacaff;
       color: #12243e;
     }
 
@@ -69,7 +120,6 @@
       background: var(--purple);
       border-radius: 5px;
       padding: 0.5rem 1rem;
-      border: 2px solid #e5e5ff;
       color: white;
       font-weight: 600;
       cursor: pointer;
@@ -81,6 +131,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
     margin: 2rem 0 1rem 0;
@@ -110,6 +161,7 @@
 
   .selected-filters {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
     width: fit-content;
@@ -146,53 +198,14 @@
       color: white;
     }
   }
+}
 
-  .series-options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
+@media (max-width: 970px) {
+  .filter-reset-button {
+    font-size: 0.9rem !important;
 
-    .series-option {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 0.2rem 1.5rem;
-      border-radius: 5px;
-      color: white;
-      font-weight: 900;
-      font-size: 1.2rem;
-      background-image: url("../assets/Digits.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90px;
-      width: 150px;
-      cursor: pointer;
-    }
-
-    .series-option:hover {
-      transform: scale(0.95);
-    }
-
-    .selected {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: var(--purple);
-      background-image: url("../assets/Digit.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 90px;
-      width: 150px;
-      color: white;
-      font-weight: 900;
-      font-size: 1.2rem;
-      padding: 0.2rem 1.5rem;
-      border-radius: 5px;
-      cursor: pointer;
+    .reset {
+      height: 0.9rem !important;
     }
   }
 }
@@ -203,8 +216,17 @@
     font-size: 1rem !important;
   }
 
-  .selected {
-    width: 100px !important;
-    font-size: 1rem !important;
+  .series-options {
+    .selected {
+      width: 100px !important;
+    }
+  }
+
+  .filter-reset-button {
+    font-size: 0.8rem !important;
+
+    .reset {
+      height: 0.8rem !important;
+    }
   }
 }

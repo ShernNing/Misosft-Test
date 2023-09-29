@@ -113,7 +113,8 @@ function Filter({ onFilterChange, selectedSeries }) {
       {/* reset filter */}
       <div className='filter-buttons-container'>
         <button onClick={handleResetFilter} className='filter-reset-button'>
-          <img src={reset} alt='reset' /> Reset
+          <img src={reset} alt='reset' className='reset' />
+          Reset
         </button>
 
         <div className='selected-filters'>
