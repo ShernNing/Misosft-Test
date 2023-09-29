@@ -9,31 +9,31 @@ function SearchBar({
 }) {
   const [search, setSearch] = useState("");
 
-  // Function to handle the search
+  // function to handle the search
   const handleSearch = () => {
-    // Filter plates based on the search query
+    // filter plates based on the search query
     const searchFilter = plates.filter((data) =>
       data.number.toLowerCase().includes(search.toLowerCase())
     );
 
-    setSearchResults(searchFilter); // Update search results
-    setIsSearching(true); // Set isSearching flag
-    setCurrentPage(0); // Reset to the first page when searching
+    setSearchResults(searchFilter); // update search results
+    setIsSearching(true); // set isSearching flag
+    setCurrentPage(0); // reset to the first page when searching
   };
 
-  // Clear search results when search query changes
+  // clear search results when search query changes
   useEffect(() => {
     setSearchResults([]);
     setIsSearching(false);
-    setCurrentPage(0); // Reset to the first page when query changes
+    setCurrentPage(0); // reset to the first page when query changes
   }, [search, setCurrentPage, setIsSearching, setSearchResults]);
 
-  // Function to clear the search input
+  // function to clear the search input
   const handleClear = () => {
-    setSearch(""); // Clear the search input
-    setSearchResults([]); // Clear search results
-    setIsSearching(false); // Reset isSearching flag
-    setCurrentPage(0); // Reset to the first page
+    setSearch(""); // clear the search input
+    setSearchResults([]); // clear search results
+    setIsSearching(false); // reset isSearching flag
+    setCurrentPage(0); // reset to the first page
   };
 
   return (
@@ -45,7 +45,7 @@ function SearchBar({
         placeholder=' Enter your preferred number. Eg: VAC1'
         className='search'
       />
-      {search && ( // Show the clear button only if there is input
+      {search && ( // show the clear button only if there is input
         <button className='clear-search' onClick={handleClear}>
           &times;
         </button>

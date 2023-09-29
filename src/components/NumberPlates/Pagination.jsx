@@ -10,12 +10,12 @@ function Pagination({
   plates,
   itemsPerPage,
 }) {
-  // Calculate the total number of pages
+  // calculate the total number of pages
   const totalPages = Math.ceil(
     (isSearching ? searchResults.length : plates.length) / itemsPerPage
   );
 
-  // Generate an array of page numbers
+  // generate number of page numbers
   const pageNumbers = Array.from({ length: totalPages }, (_, index) => index);
 
   return (

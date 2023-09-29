@@ -1,5 +1,3 @@
-import services from "../assets/services.png";
-import service from "../assets/service.png";
 import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
 import service3 from "../assets/service3.png";

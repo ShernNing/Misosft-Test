@@ -1,6 +1,5 @@
 import React from "react";
 import "./PlatesCard.scss";
-import container from "../../assets/container.png";
 
 function PlatesCard({ data }) {
   return (

@@ -13,7 +13,7 @@ function NumberPlates() {
   const [isSearching, setIsSearching] = useState(false);
   const [filteredStates, setFilteredStates] = useState([]);
   const [filteredPriceRange, setFilteredPriceRange] = useState("");
-  const [filteredSeries, setFilteredSeries] = useState(""); // Add state for filtered series
+  const [filteredSeries, setFilteredSeries] = useState("");
 
   const itemsPerPage = 20;
 
@@ -76,7 +76,7 @@ function NumberPlates() {
   ) => {
     setFilteredStates(selectedStates);
     setFilteredPriceRange(selectedPriceRange);
-    setFilteredSeries(selectedSeries); // Update filteredSeries state
+    setFilteredSeries(selectedSeries);
     setCurrentPage(0);
   };
 
@@ -92,7 +92,7 @@ function NumberPlates() {
         />
         <Filter
           onFilterChange={handleFilterChange}
-          selectedSeries={filteredSeries} // Pass selectedSeries as prop
+          selectedSeries={filteredSeries}
         />
       </section>
 
