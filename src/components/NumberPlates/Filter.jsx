@@ -34,12 +34,12 @@ function Filter({ onFilterChange, selectedSeries }) {
   ];
 
   const priceRanges = [
-    "0 to 50000",
-    "50001 to 80000",
-    "80001 to 100000",
-    "100001 to 200000",
-    "200001 to 300000",
-    "300001 to 400000",
+    "0 to 50,000",
+    "50,001 to 80,000",
+    "80,001 to 100,000",
+    "100,001 to 200,000",
+    "200,001 to 300,000",
+    "300,001 to 400,000",
   ];
 
   const handleSeriesToggle = (series) => {
@@ -92,7 +92,7 @@ function Filter({ onFilterChange, selectedSeries }) {
             }
             onClick={() => handlePriceRangeToggle(priceRange)}
           >
-            {priceRange}
+            RM {priceRange}
           </span>
         ))}
       </div>
@@ -105,7 +105,7 @@ function Filter({ onFilterChange, selectedSeries }) {
             className={selectedStates.includes(state) ? "selected" : "states"}
             onClick={() => handleStateToggle(state)}
           >
-            {state}
+            {state} Series
           </span>
         ))}
       </div>
@@ -133,7 +133,7 @@ function Filter({ onFilterChange, selectedSeries }) {
           {/* filtered price */}
           {selectedPriceRange && (
             <span className='selected-state'>
-              {selectedPriceRange}
+              RM {selectedPriceRange}
               <button
                 className='remove-filter'
                 onClick={() => handlePriceRangeToggle(selectedPriceRange)}
@@ -146,7 +146,7 @@ function Filter({ onFilterChange, selectedSeries }) {
           {/* filtered state */}
           {selectedStates.map((state) => (
             <span key={state} className='selected-state'>
-              {state}
+              {state} Series
               <button
                 className='remove-filter'
                 onClick={() => handleStateToggle(state)}

@@ -14,7 +14,7 @@
     width: fit-content;
 
     .states {
-      padding: 0.2rem 1.5rem;
+      padding: 0.4rem 1.8rem;
       border-radius: 20px;
       border: 2px solid #c8cfd8;
       color: #475364;
@@ -46,6 +46,7 @@
     width: fit-content;
 
     .price-range {
+      font-family: "Roboto", sans-serif;
       display: flex;
       align-items: center;
       background: #e5e5ff;
@@ -62,6 +63,7 @@
     }
 
     .selected {
+      font-family: "Roboto", sans-serif;
       display: flex;
       align-items: center;
       background: var(--purple);
@@ -69,12 +71,15 @@
       padding: 0.5rem 1rem;
       border: 2px solid #e5e5ff;
       color: white;
-      font-weight: 900;
+      font-weight: 600;
+      cursor: pointer;
     }
   }
 
   //filter
   .filter-buttons-container {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -83,10 +88,12 @@
 
     //reset button
     .filter-reset-button {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      padding: 4px 12px;
+      padding: 6px 22px;
       border: 2px solid #12243e;
       border-radius: 20px;
       background: #12243e;
@@ -111,12 +118,18 @@
     .selected-state {
       display: flex;
       align-items: center;
-      gap: 0.3rem;
-      padding: 0.2rem 0.5rem 0.2rem 1rem;
+      gap: 0.4rem;
+      padding: 0.7px 10px 0.7px 22px;
       border-radius: 20px;
       border: 2px solid var(--purple);
       background: var(--purple);
       color: white;
+      transition: 0.5s ease-in-out;
+      // cursor: pointer;
+    }
+
+    .selected-state:hover {
+      box-shadow: 5px 5px 10px 2px rgba(192, 192, 192, 0.847);
     }
 
     // remove filter
@@ -125,7 +138,7 @@
       color: #a6a6b5;
       background: none;
       border: none;
-      font-size: 1rem;
+      font-size: 1.5rem;
       cursor: pointer;
     }
 

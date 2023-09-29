@@ -3,420 +3,420 @@
     "id": 1,
     "number": "VE 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "V"
   },
   {
     "id": 2,
     "number": "VBF 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "V"
   },
   {
     "id": 3,
     "number": "VBT 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "V"
   },
   {
     "id": 4,
     "number": "VGX 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "V"
   },
   {
     "id": 5,
     "number": "VJN 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "V"
   },
   {
     "id": 6,
     "number": "BFC 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "B"
   },
   {
     "id": 7,
     "number": "NDV 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "N"
   },
   {
     "id": 8,
     "number": "PPD 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "P"
   },
   {
     "id": 9,
     "number": "PPU 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "P"
   },
   {
     "id": 10,
     "number": "PQH 1",
     "series": "1 DIGIT NUMBER",
-    "price": "338000",
+    "price": "338,000",
     "state": "P"
   },
   {
     "id": 12,
     "number": "JVQ 5203",
     "series": "4 DIGIT NUMBER",
-    "price": "38000",
+    "price": "38,000",
     "state": "J"
   },
   {
     "id": 13,
     "number": "MDP 4290",
     "series": "4 DIGIT NUMBER",
-    "price": "18000",
+    "price": "18,000",
     "state": "M"
   },
   {
     "id": 14,
     "number": "RAM 8964",
     "series": "4 DIGIT NUMBER",
-    "price": "38000",
+    "price": "38,000",
     "state": "R"
   },
   {
     "id": 15,
     "number": "KFK 8252",
     "series": "4 DIGIT NUMBER",
-    "price": "18000",
+    "price": "18,000",
     "state": "K"
   },
   {
     "id": 16,
     "number": "NDV 2319",
     "series": "4 DIGIT NUMBER",
-    "price": "38000",
+    "price": "38,000",
     "state": "N"
   },
   {
     "id": 17,
     "number": "BRC 1776",
     "series": "4 DIGIT NUMBER",
-    "price": "18000",
+    "price": "18,000",
     "state": "B"
   },
   {
     "id": 18,
     "number": "KV 4372 E",
     "series": "4 DIGIT NUMBER",
-    "price": "48000",
+    "price": "48,000",
     "state": "K"
   },
   {
     "id": 19,
     "number": "CEQ 6759",
     "series": "4 DIGIT NUMBER",
-    "price": "58000",
+    "price": "58,000",
     "state": "C"
   },
   {
     "id": 20,
     "number": "TCN 7494",
     "series": "4 DIGIT NUMBER",
-    "price": "78000",
+    "price": "78,000",
     "state": "T"
   },
   {
     "id": 21,
     "number": "DEL 4217",
     "series": "4 DIGIT NUMBER",
-    "price": "68000",
+    "price": "68,000",
     "state": "D"
   },
   {
     "id": 22,
     "number": "SEG 11",
     "series": "2 DIGIT NUMBER",
-    "price": "268000",
+    "price": "268,000",
     "state": "S"
   },
   {
     "id": 23,
     "number": "WDA 14",
     "series": "2 DIGIT NUMBER",
-    "price": "228000",
+    "price": "228,000",
     "state": "W"
   },
   {
     "id": 24,
     "number": "SEF 32",
     "series": "2 DIGIT NUMBER",
-    "price": "288000",
+    "price": "288,000",
     "state": "S"
   },
   {
     "id": 25,
     "number": "MVG 77",
     "series": "2 DIGIT NUMBER",
-    "price": "258000",
+    "price": "258,000",
     "state": "M"
   },
   {
     "id": 26,
     "number": "BUE",
     "series": "2 DIGIT NUMBER",
-    "price": "228000",
+    "price": "228,000",
     "state": "B"
   },
   {
     "id": 27,
     "number": "DRG 747",
     "series": "3 DIGIT NUMBER",
-    "price": "158000",
+    "price": "158,000",
     "state": "D"
   },
   {
     "id": 28,
     "number": "ARG 863",
     "series": "3 DIGIT NUMBER",
-    "price": "138000",
+    "price": "138,000",
     "state": "A"
   },
   {
     "id": 29,
     "number": "CSG 235",
     "series": "3 DIGIT NUMBER",
-    "price": "178000",
+    "price": "178,000",
     "state": "C"
   },
   {
     "id": 30,
     "number": "ERH 157",
     "series": "3 DIGIT NUMBER",
-    "price": "148000",
+    "price": "148,000",
     "state": "E"
   },
   {
     "id": 31,
     "number": "ADH 378",
     "series": "3 DIGIT NUMBER",
-    "price": "118000",
+    "price": "118,000",
     "state": "A"
   },
   {
     "id": 32,
     "number": "FEG",
     "series": "3 DIGIT NUMBER",
-    "price": "178000",
+    "price": "178,000",
     "state": "F"
   },
   {
     "id": 33,
     "number": "FUH 737",
     "series": "3 DIGIT NUMBER",
-    "price": "158000",
+    "price": "158,000",
     "state": "F"
   },
   {
     "id": 34,
     "number": "GOG 12",
     "series": "2 DIGIT NUMBER",
-    "price": "258000",
+    "price": "258,000",
     "state": "G"
   },
   {
     "id": 35,
     "number": "GEU 32",
     "series": "2 DIGIT NUMBER",
-    "price": "208000",
+    "price": "208,000",
     "state": "G"
   },
   {
     "id": 36,
     "number": "BFR 98",
     "series": "2 DIGIT NUMBER",
-    "price": "198000",
+    "price": "198,000",
     "state": "B"
   },
   {
     "id": 37,
     "number": "KUR 326",
     "series": "3 DIGIT NUMBER",
-    "price": "98000",
+    "price": "98,000",
     "state": "K"
   },
   {
     "id": 38,
     "number": "JIL 111",
     "series": "3 DIGIT NUMBER",
-    "price": "102000",
+    "price": "102,000",
     "state": "J"
   },
   {
     "id": 39,
     "number": "NAN 1",
     "series": "1 DIGIT NUMBER",
-    "price": "400000",
+    "price": "4,00000",
     "state": "N"
   },
   {
     "id": 40,
     "number": "EVG 414",
     "series": "3 DIGIT NUMBER",
-    "price": "60000",
+    "price": "6,0000",
     "state": "E"
   },
   {
     "id": 41,
     "number": "RRR 11",
     "series": "2 DIGIT NUMBER",
-    "price": "260000",
+    "price": "26,0000",
     "state": "R"
   },
   {
     "id": 42,
     "number": "STO 15",
     "series": "2 DIGIT NUMBER",
-    "price": "160000",
+    "price": "16,0000",
     "state": "S"
   },
   {
     "id": 43,
     "number": "BEQ 9999",
     "series": "4 DIGIT NUMBER",
-    "price": "30000",
+    "price": "3,0000",
     "state": "B"
   },
   {
     "id": 44,
     "number": "APG 590",
     "series": "3 DIGIT NUMBER",
-    "price": "60000",
+    "price": "6,0000",
     "state": "A"
   },
   {
     "id": 45,
     "number": "MOC 168",
     "series": "3 DIGIT NUMBER",
-    "price": "80000",
+    "price": "8,0000",
     "state": "M"
   },
   {
     "id": 46,
     "number": "NGR 5168",
     "series": "4 DIGIT NUMBER",
-    "price": "20000",
+    "price": "2,0000",
     "state": "N"
   },
   {
     "id": 47,
     "number": "JUD 24",
     "series": "2 DIGIT NUMBER",
-    "price": "120000",
+    "price": "12,0000",
     "state": "J"
   },
   {
     "id": 48,
     "number": "CAD 9",
     "series": "1 DIGIT NUMBER",
-    "price": "220000",
+    "price": "22,0000",
     "state": "C"
   },
   {
     "id": 49,
     "number": "PPP 163",
     "series": "3 DIGIT NUMBER",
-    "price": "70000",
+    "price": "7,0000",
     "state": "P"
   },
   {
     "id": 50,
     "number": "TUV 268",
     "series": "3 DIGIT NUMBER",
-    "price": "60000",
+    "price": "6,0000",
     "state": "T"
   },
   {
     "id": 51,
     "number": "RRR 1",
     "series": "1 DIGIT NUMBER",
-    "price": "360000",
+    "price": "36,0000",
     "state": "R"
   },
   {
     "id": 52,
     "number": "ROR 12",
     "series": "2 DIGIT NUMBER",
-    "price": "260000",
+    "price": "26,0000",
     "state": "R"
   },
   {
     "id": 53,
     "number": "ADP 125",
     "series": "3 DIGIT NUMBER",
-    "price": "160000",
+    "price": "16,0000",
     "state": "A"
   },
   {
     "id": 54,
     "number": "BEO 1235",
     "series": "4 DIGIT NUMBER",
-    "price": "20000",
+    "price": "2,0000",
     "state": "B"
   },
   {
     "id": 55,
     "number": "GCD 99",
     "series": "2 DIGIT NUMBER",
-    "price": "120000",
+    "price": "12,0000",
     "state": "G"
   },
   {
     "id": 56,
     "number": "MNM 100",
     "series": "3 DIGIT NUMBER",
-    "price": "70000",
+    "price": "7,0000",
     "state": "M"
   },
   {
     "id": 57,
     "number": "KZA 748",
     "series": "3 DIGIT NUMBER",
-    "price": "30000",
+    "price": "3,0000",
     "state": "K"
   },
   {
     "id": 58,
     "number": "SSS 111",
     "series": "3 DIGIT NUMBER",
-    "price": "130000",
+    "price": "13,0000",
     "state": "S"
   },
   {
     "id": 59,
     "number": "SAS 1",
     "series": "1 DIGIT NUMBER",
-    "price": "330000",
+    "price": "33,0000",
     "state": "S"
   },
   {
     "id": 60,
     "number": "WWW 123",
     "series": "3 DIGIT NUMBER",
-    "price": "130000",
+    "price": "13,0000",
     "state": "W"
   },
   {
     "id": 61,
     "number": "VAV 558",
     "series": "3 DIGIT NUMBER",
-    "price": "80000",
+    "price": "8,0000",
     "state": "V"
   }
 ]

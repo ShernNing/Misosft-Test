@@ -37,6 +37,7 @@
   }
 
   .search::placeholder {
+    font-family: "Roboto", sans-serif;
     color: #c8cfd8;
   }
 
@@ -49,8 +50,23 @@
     transform: translateY(-50%);
     flex: 1;
   }
+  .clear-search {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    top: 30%;
+    right: 23%;
+    cursor: pointer;
+  }
+
+  .clear-search:hover {
+    color: var(--purple);
+  }
 
   .search-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     padding: 0.3rem 4rem;
     background-color: #12243e;
     color: white;
